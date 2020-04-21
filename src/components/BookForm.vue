@@ -4,17 +4,17 @@
     <input v-model="bookData.bookAuthor" type="text" name="author" value="" placeholder="Book Author">
     <div>
       <label for="finishedReading">
-        Finish Reading
+        Finished Reading
         <input type="checkbox" v-model="bookData.finishedReading" >
       </label>
     </div>
     <div>
       <label for="borrowed">
-        Borrowed
+        borrowed
         <input type="radio" value="borrowed" v-model="bookData.ownership" >
       </label>
       <label for="bought">
-        Bought
+        bought
         <input type="radio" value "bought" v-model="bookData.ownership" >
       </label>
     </div>
